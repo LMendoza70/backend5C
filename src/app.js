@@ -10,6 +10,10 @@ app.get('/',(req, res)=>{
     res.send("Esto es mi primer API desde express...");
 })
 
+app.get('/otra/',(req, res)=>{
+    res.send("Otra ruta  ");
+})
+
 app.listen(PORT,()=>{
-    console.log("Aplicacion corriendo en el puerto "+PORT)
+    console.log("Prueva el API desde localhost:"+PORT)
 })
