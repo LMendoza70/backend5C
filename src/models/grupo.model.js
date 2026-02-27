@@ -17,3 +17,4 @@ export const createGrupo = async ({ nombre_grupo, descripcion,activo }) => {
   );
   return { id: result.insertId, nombre_grupo, descripcion,activo };
 };
+

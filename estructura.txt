@@ -1,4 +1,4 @@
-api-gestion-estudiantes/
+backend5c/
 ├── src/
 │   ├── config/
 │   │   └── db.js                → Conexión a MySQL (pool)

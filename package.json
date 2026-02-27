@@ -1,7 +1,7 @@
 {
   "name": "backend5c",
   "version": "1.0.0",
-  "description": "",
+  "description": "Primer API con express y mysql del grupo 5C",
   "main": "./src/app.js",
   "scripts": {
     "start":"node run ./src/app.js",
