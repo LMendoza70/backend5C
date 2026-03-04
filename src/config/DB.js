@@ -3,7 +3,6 @@ import dotenv from 'dotenv'
 
 //configuramos el acceso a nuestras variables de entorno 
 dotenv.config()
-
 //creamos el pool de coneccion a la base de datos
 const pool =createPool({
     host:process.env.DB_HOST,
@@ -15,5 +14,6 @@ const pool =createPool({
     connectionLimit:10,
     queueLimit:0
 })
+
 
 export default pool

@@ -1,10 +1,12 @@
 //importamos la libreria de express
 import express from 'express';
 import dotenv from 'dotenv';
+import cors from 'cors'
 import gruposRoutes from './routes/grupos.routes.js'
 
 //creamos el objeto de express para nuestra aplicacion 
 const app=express();
+
 
 //configuro el acceso al archivo ,.env
 dotenv.config()
@@ -14,6 +16,7 @@ const port = process.env.PORT || 3000
 
 //definimos un midleware para poder implementar json en nuestra API
 app.use(express.json())
+//app.use(cors())
 
 //definimos las rutas que voy a implementar
 app.use('/api/grupos',gruposRoutes)
