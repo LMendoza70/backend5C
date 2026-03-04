@@ -22,7 +22,7 @@ app.use(cors())
 app.use('/api/grupos',gruposRoutes)
 
 app.get('/',(req, res)=>{
-    res.send("Esto es mi primer API desde express...");
+    res.send("Esto es mi primer API desde express... publicada en vercel...");
 })
 
 
