@@ -16,7 +16,7 @@ const port = process.env.PORT || 3000
 
 //definimos un midleware para poder implementar json en nuestra API
 app.use(express.json())
-//app.use(cors())
+app.use(cors())
 
 //definimos las rutas que voy a implementar
 app.use('/api/grupos',gruposRoutes)
