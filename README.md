@@ -1,7 +1,3 @@
-Para crear un archivo `README.md` profesional y útil para tu proyecto **backend5c**, he estructurado la información basándome en los archivos de tu repositorio, como la configuración de Express, la conexión a la base de datos y la estructura de carpetas definida.
-
-Aquí tienes una propuesta completa:
-
 ---
 
 # Backend 5C - API con Express y MySQL
