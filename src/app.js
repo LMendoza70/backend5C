@@ -3,6 +3,7 @@ import express from 'express';
 import dotenv from 'dotenv';
 import cors from 'cors'
 import gruposRoutes from './routes/grupos.routes.js'
+import authRoutes from './routes/auth.routes.js'
 
 //creamos el objeto de express para nuestra aplicacion 
 const app=express();
@@ -20,6 +21,7 @@ app.use(cors())
 
 //definimos las rutas que voy a implementar
 app.use('/api/grupos',gruposRoutes)
+app.use('/api/auth',authRoutes)
 
 app.get('/',(req, res)=>{
     res.send("Esto es mi primer API desde express... publicada en vercel...");
